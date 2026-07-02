@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="refresh" content="0; url=https://buy.stripe.com/cNidRa9c6dkj0ijbw75AQ04" />
+    <title>Redirigiendo a tu pago seguro… | Reconexión Esencial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400&family=Lato:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --primary: #7a3efe;
+        --gold: #c6a87c;
+        --cream: #fdfbf7;
+        --text-main: #2d2a32;
+        --text-light: #6b6671;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--cream);
+        color: var(--text-main);
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        text-align: center;
+        padding: 24px;
+      }
+      .card {
+        max-width: 420px;
+      }
+      .spinner {
+        width: 40px;
+        height: 40px;
+        margin: 0 auto 28px;
+        border: 3px solid rgba(122, 62, 254, 0.15);
+        border-top-color: var(--primary);
+        border-radius: 999px;
+        animation: spin 0.9s linear infinite;
+      }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+      h1 {
+        margin: 0 0 12px;
+        font-family: "Playfair Display", serif;
+        font-weight: 500;
+        font-size: 1.5rem;
+      }
+      p {
+        margin: 0 0 24px;
+        color: var(--text-light);
+        line-height: 1.6;
+      }
+      a.manual {
+        color: var(--primary);
+        font-weight: 400;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="spinner" aria-hidden="true"></div>
+      <h1>Redirigiendo a tu pago seguro</h1>
+      <p>Te estamos llevando a la pasarela de pago segura de Stripe para completar tu inscripción a Reconexión Esencial.</p>
+      <p>
+        Si no eres redirigida automáticamente,
+        <a class="manual" href="https://buy.stripe.com/cNidRa9c6dkj0ijbw75AQ04">haz clic aquí</a>.
+      </p>
+    </div>
+    <script>
+      window.location.replace("https://buy.stripe.com/cNidRa9c6dkj0ijbw75AQ04");
+    </script>
+  </body>
+</html>
